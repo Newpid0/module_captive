@@ -117,7 +117,7 @@ $exec = "$arp -an " . $ip;
 
 //$mac = exec("$bin_exec \"$exec\""); //DEPRECATED
 $mac = exec_fruitywifi($exec);
-
+$mac = implode("",$mac); //I dont know if this is bad or not
 preg_match('/..:..:..:..:..:../',$mac , $matches);
 $mac = @$matches[0];
 
