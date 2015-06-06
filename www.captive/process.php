@@ -19,7 +19,7 @@
 <?php 
 include "/usr/share/fruitywifi/www/config/config.php";
 include "/usr/share/fruitywifi/www/modules/captive/_info_.php";
-
+include "/usr/share/fruitywifi/www/functions.php";
 //$bin_danger = "/usr/share/FruityWifi/bin/danger";
 
 if( isset( $_POST['ip'] ) && isset( $_POST['mac'] ) ) {
