@@ -191,12 +191,12 @@ Loading, please wait...
                 if ($row[4] != "") {
             ?>
                 <tr>
-                    <td style="padding-right:5px"><a href="includes/module_action.php?service=users&action=delete&mac=<?=$row[3]?>">Delete</a></td>
-                    <td style="background-color:#222; padding-right:10px"><?=$row[0];?></td>
-                    <td style="background-color:#222; padding-right:10px"><?=$row[1];?></td>
-                    <td style="background-color:#222; padding-right:10px"><?=$row[2];?></td>
-                    <td style="background-color:#222; padding-right:10px"><?=$row[3];?></td>
-                    <td style="background-color:#222; padding-right:10px"><?=$row[4];?></td>
+                   <td style="background-color:#222; padding-right:5px"><a href="includes/module_action.php?service=users&action=delete&mac=<?=$row[3]?>">Delete</a></$
+                    <td style="color: #fff; background-color:#222; padding-right:10px"><?=$row[0];?></td>
+                    <td style="color: #fff; background-color:#222; padding-right:10px"><?=$row[1];?></td>
+                    <td style="color: #fff; background-color:#222; padding-right:10px"><?=$row[2];?></td>
+                    <td style="color: #fff; background-color:#222; padding-right:10px"><?=$row[3];?></td>
+                    <td style="color: #fff; background-color:#222; padding-right:10px"><?=$row[4];?></td>
                 </tr>
             <?  } 
             } 
